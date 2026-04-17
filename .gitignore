@@ -1,0 +1,29 @@
+# Folder dan File yang tidak perlu di-push ke GitHub
+
+# Folder uploads berisi foto pfofil user
+uploads/
+
+# File konfigurasi lokal yang mungkin berbeda
+# config.php
+
+# Backup database
+*.sql
+*.sql.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
